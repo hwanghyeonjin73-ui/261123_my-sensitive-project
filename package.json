@@ -1,0 +1,17 @@
+{
+  "name": "mail-priority-classifier",
+  "version": "1.0.0",
+  "private": true,
+  "description": "메일 우선순위 분류 서비스",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env dev-server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "openai": "^7.62.0"
+  }
+}
